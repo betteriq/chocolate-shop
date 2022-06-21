@@ -1,0 +1,14 @@
+.slice_one {
+  width: 30%;
+  z-index: 1000;
+}
+.slice_two {
+  width: 30%;
+  transform-origin: 210px 100px;
+  transition: all 1s;
+  position: absolute;
+  left: 23px;
+}
+.slice_two:hover {
+  transform: rotate(10deg);
+}
