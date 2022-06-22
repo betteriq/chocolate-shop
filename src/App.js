@@ -1,9 +1,15 @@
 import React from 'react'
+import { Route, Routes } from 'react-router'
 import Home from "./Pages/Home"
 import Mahsoolat from "./Pages/Mahsoolat"
 const App = () => {
   return (
-    <div><Home /></div>
+    <div>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path="/pages" element={<Mahsoolat />} />
+      </Routes>
+    </div>
   )
 }
 
