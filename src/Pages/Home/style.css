@@ -10,4 +10,5 @@
   object-fit: cover;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }

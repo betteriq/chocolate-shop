@@ -1,19 +1,35 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import "./style.css"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./style.css";
 
 const index = () => {
     return (
         <nav>
-            <Link to="/">News</Link>
-            <Link to="/">Stores</Link>
-            <Link to="/">Contact</Link>
-            <Link to="/">Catalogue</Link>
-            <Link to="/">Travel Retail</Link>
-            <Link to="/">COCOA HORIZONS</Link>
-            <Link to="/">CORPORATE SOLUTIONS</Link>
+            <ul>
+                <li>
+                    <Link to="/">News</Link>
+                </li>
+                <li>
+                    <Link to="/">Stores</Link>
+                </li>
+                <li>
+                    <Link to="/">Contact</Link>
+                </li>
+                <li>
+                    <Link to="/">Catalogue</Link>
+                </li>
+                <li>
+                    <Link to="/">Travel Retail</Link>
+                </li>
+                <li>
+                    <Link to="/">COCOA HORIZONS</Link>
+                </li>
+                <li>
+                    <Link to="/">CORPORATE SOLUTIONS</Link>
+                </li>
+            </ul>
         </nav>
-    )
-}
+    );
+};
 
-export default index
+export default index;
