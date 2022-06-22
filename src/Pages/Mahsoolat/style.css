@@ -1,14 +1,26 @@
+.products{
+  position: relative;
+}
 .slice_one {
   width: 30%;
-  z-index: 1000;
+  transform-origin: 320px 100px;
+  transition: all 1s;
 }
 .slice_two {
   width: 30%;
-  transform-origin: 210px 100px;
+  transform-origin: 320px 100px;
   transition: all 1s;
   position: absolute;
-  left: 23px;
+  left: 35px;
 }
 .slice_two:hover {
-  transform: rotate(10deg);
+  transform: rotate(40deg);
+}
+.slice_shokolat{
+  position: absolute;
+  top: -110px;
+  left: 40px;
+  height: 350px;
+  width: 400px;
+  z-index: -100;
 }
