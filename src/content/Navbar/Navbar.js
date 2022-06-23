@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-const index = () => {
+const Navbar = () => {
     return (
         <nav>
             <ul>
@@ -34,8 +34,9 @@ const index = () => {
                     <Link to="/">CORPORATE SOLUTIONS</Link>
                 </li>
             </ul>
+            
         </nav>
     );
 };
 
-export default index;
+export default Navbar;

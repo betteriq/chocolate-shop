@@ -3,6 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: SocialGothicRegular;
+  src: url("../public//Social-Gothic-Font/Social\ Gothic\ Regular.otf");
+}
 body{
-  background-color: #000;
+  /* background-color: #000; */
+  /* word-spacing: 0.5px; */
+  font-family: SocialGothicRegular;
+}
+a{
+  color: aliceblue;
 }
