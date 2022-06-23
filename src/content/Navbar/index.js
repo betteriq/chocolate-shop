@@ -7,6 +7,12 @@ const index = () => {
         <nav>
             <ul>
                 <li>
+                    <Link to="/">Csr</Link>
+                </li>
+                <li>
+                    <Link to="/">Shop</Link>
+                </li>
+                <li>
                     <Link to="/">News</Link>
                 </li>
                 <li>
