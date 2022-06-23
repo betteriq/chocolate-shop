@@ -9,8 +9,9 @@
   margin: 0;
   width: 100%;
   overflow: hidden;
+  z-index: 3;
 }
-.product{
+.product {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,27 +19,45 @@
   height: 100vh;
 }
 .slice_one {
-  width: 30%;
+  width: 35%;
   transform-origin: 320px 100px;
   transition: all 1s;
 }
 
 .slice_two {
-  width: 30%;
-  transform-origin: 150px 140px ;
+  width: 35%;
+  transform-origin: 200px 170px;
   transition: all 1s;
   position: absolute;
   left: 39.3rem;
 }
-
 .slice_two:hover {
-  transform: rotate(30deg);
+  transform: rotate(20deg);
 }
 .slice_shokolat {
   position: absolute;
-  top: -110px;
-  left: 40px;
+  left: 31rem;
   height: 350px;
   width: 400px;
-  z-index: -100;
+  z-index: -10;
+}
+
+@media (max-width: 480px) {
+  .slice_two {
+    width: 70%;
+    left: 12rem;
+    transform-origin: 120px 125px;
+  }
+  .slice_one {
+    width: 70%;
+  }
+  .slice_two:hover {
+    transform: rotate(18deg);
+  }
+  .slice_shokolat {
+    position: absolute;
+    left: 4rem;
+    height: 340px;
+    width: 20rem;
+  }
 }

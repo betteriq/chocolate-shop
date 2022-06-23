@@ -6,7 +6,6 @@ ul {
   list-style: none;
 }
 ul li a {
-  color: #fff;
   transform: rotate(180deg);
   font-size: 1rem;
   font-weight: 600;
