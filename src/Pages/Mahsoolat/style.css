@@ -19,13 +19,13 @@
   height: 100vh;
 }
 .slice_one {
-  width: 35%;
+  width: 38%;
   transform-origin: 320px 100px;
   transition: all 1s;
 }
 
 .slice_two {
-  width: 35%;
+  width: 38%;
   transform-origin: 200px 170px;
   transition: all 1s;
   position: absolute;
@@ -38,7 +38,7 @@
   position: absolute;
   left: 31rem;
   height: 350px;
-  width: 400px;
+  width: 35%;
   z-index: -10;
 }
 
@@ -60,4 +60,10 @@
     height: 340px;
     width: 20rem;
   }
+}
+.products h2{
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  color: #fff;
 }

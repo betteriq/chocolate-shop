@@ -5,10 +5,20 @@ ul {
   justify-content: space-around;
   list-style: none;
 }
+@font-face {
+  font-family: boldev;
+  src: url("../../../public/Social-Gothic-Font/Social\ Gothic\ Medium.otf");
+}
+@media (max-width: 480px) {
+  nav ul{
+    display: none;
+  }
+}
 ul li a {
   transform: rotate(180deg);
   font-size: 1rem;
-  font-weight: 600;
+  font-family: boldev;
+  font-weight: 800;
   writing-mode: vertical-lr;
   text-transform: uppercase;
   line-height: 24px;
@@ -17,4 +27,9 @@ nav {
   position: fixed;
   right: 50px;
   top: 30px;
+}
+nav i{
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 1s;
 }

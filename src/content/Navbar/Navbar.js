@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
 const Navbar = () => {
+    const [state, setState] = useState(true)
     return (
         <nav>
             <ul>
@@ -34,7 +35,7 @@ const Navbar = () => {
                     <Link to="/">CORPORATE SOLUTIONS</Link>
                 </li>
             </ul>
-            
+           
         </nav>
     );
 };
